@@ -22,4 +22,4 @@ I am going to use the required technologies in the following ways.
   - retrieving fitness data
   - submitting daily fitness data
 - **DB/Login** - Store users fitness data (steps and calories) in database. Register and login users. Credentials securely stored in database. Can't enter fitness data without authentication.
-- **WebSocket** - As each user enter their daily fitness data, users will receive notifcaitons of other peoples steps for the day. (If entered in realtime).
+- **WebSocket** - As a user enters their daily fitness data, they'll receive notifcations of other user's steps for the day. 
