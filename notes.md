@@ -29,3 +29,19 @@ Here is a simple list of the steps of using Git.
 5. Input public IP address of server
 6. Input "*" for any wildcard for any subdomain in the "Record name" box
 7. Press Create records
+## Caddy
+- Caddy is a web service that listens for HTTP requests.
+- It serves requested static files or routes request to another web service.
+- This is called, "Gateway". It allows me to expose multiple web services through one external web service (Caddy).
+- Caddy handles creation and rotation of web certificates. Supports HTTPS
+- It serves HTML,CSS, and Javascript filess.
+- Caddy also is a gateway for Subdomain requests. (ex.simon.tracktribe.click)
+### Configuration file:
+- There are 2 links in the Ubuntu user home directory pointing to Caddy files.
+- "~/Caddyfile"
+- It contains definitions for routing HTTP requests that Caddy receives.
+- It determines the location where HTML static files are loaded from.
+- It also proxy requests into the 3rd party services used.
+### HTML Files:
+- "~/public_html"
+- This is the directory of files that Caddy serves per requests made to the root of my web server.
