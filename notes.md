@@ -14,4 +14,10 @@ Here is a simple list of the steps of using Git.
 - HTML sets up the structure for the browser so that it can know how to display the text.
 - The deploy file is complicated but it pretty much serves my files up to my server.
 ## Amazon Web Services - Route 53
-- 
+- Route 53 is the AWS service that handles DNS-related tasks.
+- These DNS-related tasks are buying domain names, hosting my domain on AMS DNS servers, and creating DNS records.
+- Steps to getting a domain:
+1. Go to Route 53
+2. Go to Domains > Registered Domains > Register Domain
+3. Choose your domain name 
+4. Fill out contract information > Complete Order > Check "Hosted Zones"
