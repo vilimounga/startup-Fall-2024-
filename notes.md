@@ -21,3 +21,11 @@ Here is a simple list of the steps of using Git.
 2. Go to Domains > Registered Domains > Register Domain
 3. Choose your domain name 
 4. Fill out contract information > Complete Order > Check "Hosted Zones"
+- Steps to Creating/Managing my DNS records:
+1. Go to Route 53 > Hosted Zones on the left menu
+2. Create your root domain DNS record > Create record
+3. Input public IP address of server > Create records
+4. Create DNS record for any subdomain of my root domain > Create record
+5. Input public IP address of server
+6. Input "*" for any wildcard for any subdomain in the "Record name" box
+7. Press Create records
