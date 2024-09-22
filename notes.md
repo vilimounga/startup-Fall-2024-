@@ -9,3 +9,9 @@ Here is a simple list of the steps of using Git.
 2. git status
 3. git pull
 - Link to my README.md: https://github.com/vilimounga/startup/blob/main/README.md
+## Simon HTML
+- HTML is the backbone structure of my web application.
+- HTML sets up the structure for the browser so that it can know how to display the text.
+- The deploy file is complicated but it pretty much serves my files up to my server.
+## Amazon Web Services - Route 53
+- 
