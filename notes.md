@@ -45,3 +45,11 @@ Here is a simple list of the steps of using Git.
 ### HTML Files:
 - "~/public_html"
 - This is the directory of files that Caddy serves per requests made to the root of my web server.
+## HTTPS, TLS, and web certificates
+- HTTPS is a secure connection so that no data is stolen when requests are given or received.
+- Transport Layer Security (TLS) is a security protocol that protects data and communication over the internet. It's used to encrypt data between web applications and servers, such as when a web browser loads a website.
+- A web certificate, also known as an SSL or TLS certificate, is a digital object that verifies the identity of a website and encrypts data sent between a browser and a server.
+## Simon HTML & Deploying Files
+- Make sure you have a deployFiles.sh to deploy your files to your server
+- The script does three things. Deletes any previous deployment for simon, copies up all of the files found in the project directory, and makes sure Caddy is hosting the files under the simon subdomain of your domain (e.g. simon.yourdomain.click).
+- "./deployFiles.sh -k ~/keys/production.pem -h yourdomain.click -s simon" (example of a command prompt for deploying)
