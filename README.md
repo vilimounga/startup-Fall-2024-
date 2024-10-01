@@ -22,4 +22,14 @@ I am going to use the required technologies in the following ways.
   - retrieving fitness data
   - submitting daily fitness data
 - **DB/Login** - Store users fitness data (steps and calories) in database. Register and login users. Credentials securely stored in database. Can't enter fitness data without authentication.
-- **WebSocket** - As a user enters their daily fitness data, they'll receive notifcations of other user's steps for the day. 
+- **WebSocket** - As a user enters their daily fitness data, they'll receive notifcations of other user's steps for the day.
+## HTML deliverable
+
+For this deliverable I built out the structure of my application using HTML.
+
+- [x] **HTML pages** - Three HTML page that includes the main/login page, recording fitness data page, and viewing progress page.
+- [x] **Links** - The login page automatically links to the recording page. The recording page links to the progress page.
+- [x] **Text** - Each of fitness data type is represented by text. Graphs uses textual descriptions.
+- [x] **Images** - I include a free icon for web application. I added an image to the record HTML page.
+- [x] **DB/Login** - Input boxes and submit/create button for login. The graphs represent personal data pulled from database.
+- [x] **WebSocket** - While users is inputting data, notifications will pop up showing other user's data from that day.
