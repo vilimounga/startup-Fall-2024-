@@ -33,3 +33,4 @@ For this deliverable I built out the structure of my application using HTML.
 - [x] **Images** - I include a free icon for web application. I added an image to the record HTML page.
 - [x] **DB/Login** - Input boxes and submit/create button for login. The graphs represent personal data pulled from database.
 - [x] **WebSocket** - While users is inputting data, notifications will pop up showing other user's data from that day.
+- [x] **3rdPartyServices** - Quote on progress page is a placeholder for a 3rd party request for daily motivational quotes.
