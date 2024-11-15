@@ -53,3 +53,12 @@ Here is a simple list of the steps of using Git.
 - Make sure you have a deployFiles.sh to deploy your files to your server
 - The script does three things. Deletes any previous deployment for simon, copies up all of the files found in the project directory, and makes sure Caddy is hosting the files under the simon subdomain of your domain (e.g. simon.yourdomain.click).
 - "./deployFiles.sh -k ~/keys/production.pem -h yourdomain.click -s simon" (example of a command prompt for deploying)
+## Javascript
+- exception: try and catch block, finally block gets called no matter what at the end of the exception.
+- templateLiterals: study this
+- Array
+- destructuringArrays()
+- DOM:
+    - WebSocket:
+    - DOM Manipulation:
+    - const listElements = documents
